@@ -19,4 +19,4 @@ jobs:
           variant: ${{ matrix.racket-variant }}
           version: ${{ matrix.racket-version }}
 
-        run: raco test .
+      - run: raco test .
